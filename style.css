@@ -163,7 +163,7 @@ body {
 
 input:checked + .slider:before {
     transform: translateX(34px);
-    /*content: url('assets/sun_fill.svg');*/
+    content: url('assets/sun_fill.svg');
 }
 .moon {
     display: inline-block;
