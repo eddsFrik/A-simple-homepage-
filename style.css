@@ -42,6 +42,7 @@ body {
     background-attachment: fixed;
     font-family: var(--font);
     transition: .4s;
+    overflow: hidden;
 }
 
 /*Dark Mode :D*/
@@ -252,8 +253,8 @@ main {
 }
 
 .right__cont {
-    margin-top: 2.3rem;
-    margin-right: 1.3rem;
+    margin-top: 4rem;
+    margin-right: 1.4rem;
     max-width: 600px;
 }
 
