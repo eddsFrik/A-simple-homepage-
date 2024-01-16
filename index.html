@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/hero-image-simple-homepage.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <img src="/assets/alarado-icon-homepage.svg" alt="alarado-icon" class="header-icon">
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li><a href="#" class="list__anchor --active" >About us</a></li>
+                <li><a href="#" class="list__anchor">Product</a></li>
+                <li><a href="#" class="list__anchor">Resource</a></li>
+                <li><a href="#" class="list__anchor">Contact</a></li>
+            </ul>
+        </nav>
+        <label class="switch"> 
+            <img class="moon" src="assets/Moon_fill_light.svg" alt="moon">
+            <input type="checkbox" checked  onclick="toggle()">
+            <span class="slider"></span>
+            <img class="sun" src="assets/Sun_fill_light.svg" alt="sun">
+        </label>
+        <img src="assets/list.svg" alt="list" width="35px" onclick="openNav()" class="list">
+        <aside class="side__nav" id="navigation">
+            <ul class="right__list">
+                <a href="javascript:void(0)" class="close__btn" onclick="closeNav()">&times;</a>
+                <li><a href="#" class='side_anchor --active'>About us</a></li>
+                <li><a href="#" class="side_anchor">Product</a></li>
+                <li><a href="#" class="side_anchor">Resource</a></li>
+                <li><a href="#" class="side_anchor">Contact</a></li>
+            </ul>
+            <label class="switch"> 
+                <img class="moon" src="assets/Moon_fill_light.svg" alt="moon">
+                <input type="checkbox" checked  onclick="toggle()">
+                <span class="slider"></span>
+                <img class="sun" src="assets/Sun_fill_light.svg" alt="sun">
+            </label>
+        </aside>
+    </header>
+    <main>
+        <section class="left__cont">
+            <strong class="emoji">😎 Simple way to communicate</strong>
+            <h1 class="tittle">Actions for Accessibility in Design</h1>
+            <p class="desc">The fastest way to build and deploy websites with resusable components.</p>
+            <button class="btn">GET STARTED</button>
+            <a href="#" class="anchor">Get live demo</a>
+            <ul class="bottom__list">
+                <li class="bottom__item">No credit card required</li>
+                <li class="bottom__item">No software to install</li>
+            </ul>
+        </section>
+        <section class="right__cont">
+            <img src="assets/hero-image-simple-homepage.png" alt="hero-image" class="hero-image">
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
