@@ -42,7 +42,6 @@ body {
     background-attachment: fixed;
     font-family: var(--font);
     transition: .4s;
-    overflow: hidden;
 }
 
 /*Dark Mode :D*/
